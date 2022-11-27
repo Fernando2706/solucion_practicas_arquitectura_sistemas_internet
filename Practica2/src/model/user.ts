@@ -60,8 +60,7 @@ const handleSave = (error: any, _:any, next: any) => {
 }
 
 function generateIban() {
-    const accountNumber = Math.random() * 1000000000000
-    return "ES" + accountNumber;
+    return "ES21" + Math.floor(Math.random() * 1000000000000000000000);;
 }
 
 UserSchema.post("save", handleSave)
