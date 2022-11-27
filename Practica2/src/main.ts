@@ -40,5 +40,5 @@ app.use(router.allowedMethods())
 app.use(router.routes())
 
 
-console.log("Listening on port:3002")
+console.log(`Listening on port:${Deno.env.get("PORT") }`)
 await app.listen({ port: Number(Deno.env.get("PORT")), hostname:"127.0.0.1"})
