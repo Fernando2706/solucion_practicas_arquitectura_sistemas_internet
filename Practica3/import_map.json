@@ -1,0 +1,12 @@
+{
+    "imports": {
+        "oak": "https://deno.land/x/oak/mod.ts",
+        "colors":"https://deno.land/std@0.165.0/fmt/colors.ts",
+        "mongoose": "npm:mongoose@^6.7",
+        "validation": "https://deno.land/x/validation/mod.ts",
+        "dotenv": "https://deno.land/x/dotenv/mod.ts",
+        "uuid": "https://deno.land/std@0.161.0/uuid/mod.ts",
+        "bcrypt": "https://deno.land/x/bcrypt/mod.ts",
+        "helpers-oak": "https://deno.land/x/oak/helpers.ts"
+    }
+}
